@@ -1,0 +1,425 @@
+body{
+    margin: 0 auto;
+}
+header{
+    text-align: left;
+    background: rgba(25,31,34,.9);
+    height: 90px;
+}
+header img{
+    float: left;
+    margin: 15px 20px 0 25%;
+}
+header .sub{
+    width: 400px;
+    height: 40px;
+    border-width: 0.5px;
+    border-radius: 3px;
+    margin: 26px 20px 0 0;
+}
+header input{
+    padding-left: 5px;
+    margin: 0 0 5px 0;
+}
+header .submit{
+    width: 50px;
+    height: 40px;
+}
+nav{
+    background: url("../img/hu.jpg");
+    background-size: cover;
+    height: 300px;
+    position: relative;
+}
+.text{
+    position: absolute;
+    top: 200px;
+    left: 17%;
+    text-align: center;
+    background-color: rgba(250,250,250,0.4);
+    width: 1000px;
+    height: 250px;
+    color: #5e5e5e;
+    border-radius: 10px;
+}
+.text a{
+    padding: 30px;
+    float: left;
+    line-height: 40px;
+    color: #000;
+    font-weight: 900;
+    font-size: 20px;
+}
+.content{
+    background-color: #f0f0f0;
+    margin: 0 auto;
+    position: relative;
+}
+.list{
+    margin: 0 17%;
+    width: 1000px;
+    background: #fff;
+}
+.list h3{
+    font-size: 18px;
+    line-height: 50px;
+    margin: 0;
+    text-align: center;
+}
+table{
+    margin: 10px 20px;
+    border: #000 1px solid;
+}
+table tr td{
+    text-align: center;
+    margin: 10px 0;
+    border: #000 1px solid;
+}
+
+forgetPassword.css
+
+body{
+    background: url("../img/bg.jpg");
+    background-size: cover;
+}
+.dialog{
+    width: 380px;
+    margin: 200px auto 0;
+    border: 1px solid #D5D5D5;
+    background: #fff;
+}
+.dialog-title{
+    position: relative;
+    height: 48px;
+    line-height: 48px;
+    padding:0px 20px;
+    color: #535353;
+    font-size: 16px;
+    border-bottom: 1px solid #efefef;
+    background: #f5f5f5;
+}
+.dialog-closebutton{
+    width: 16px;
+    height: 16px;
+    display: block;
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    cursor: pointer;
+}
+.dialog-content{
+    padding: 15px 20px;
+}
+.input{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin: 10px auto 20px;
+    border: 1px solid #d5d5d5;
+    font-size: 16px;
+    color: #c1c1c1;
+    text-indent: 25px;
+}
+.text{
+    font-size: 16px;
+    display: inline-block;
+    color: orange;
+}
+.submit{
+    width: 100%;
+    height: 50px;
+    background-color: orange;
+    transition:0.4s;
+    color: #fff;
+    font-size: 16px;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+}
+.submit:hover{
+    background-color: darkorange;
+}
+
+homePage.css
+body{
+    background: url("../img/bg-1.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+h1{
+    text-align: center;
+    color: #000;
+    font-size: 40px;
+    margin: 10px 0 0 0;
+    font-family: "»ªÎÄÁ¥Êé";
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.dialog{
+    width: 380px;
+    margin: 200px auto 0;
+    border: 1px solid #D5D5D5;
+    background: #fff;
+}
+.dialog-title{
+    position: relative;
+    height: 48px;
+    line-height: 48px;
+    padding:0px 20px;
+    color: #535353;
+    font-size: 16px;
+    border-bottom: 1px solid #efefef;
+    background: #f5f5f5;
+}
+.dialog-closebutton{
+    width: 16px;
+    height: 16px;
+    display: block;
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    cursor: pointer;
+}
+.dialog-content{
+    padding: 15px 20px;
+}
+.input{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin: 10px auto 20px;
+    border: 1px solid #d5d5d5;
+    font-size: 16px;
+    color: #c1c1c1;
+    text-indent: 25px;
+}
+.submit{
+    width: 100%;
+    height: 50px;
+    background-color:#1c58a1;
+    opacity: 0.9;
+    transition:0.4s;
+    color: #fff;
+    font-size: 16px;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+}
+.submit:hover{
+    background-color: #02316d;
+    opacity: 1;
+}
+.register{
+    color: #000;
+}
+.clear{
+    content:'';
+    clear: both;
+}
+.clear{
+    content: '';
+    clear: both;
+}
+.fly{
+    margin: 0 20% 0 0;
+    float: right;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+List.css
+body{
+    margin: 0 auto;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{
+    color:#fcf8e3;
+}
+p a{
+    color: #5e5e5e;
+}
+p a:hover{
+    color: red;
+}
+header{
+    text-align: left;
+}
+header img{
+    float: left;
+    margin: 0 20px 0 25%;
+}
+header .sub{
+    width: 400px;
+    height: 40px;
+    border-width: 0.5px;
+    border-radius: 3px;
+    margin: 30px 20px 0 0;
+}
+header input{
+    padding-left: 5px;
+}
+header .submit{
+    width: 50px;
+    height: 40px;
+}
+.name{
+    width: 100%;
+    height: 46px;
+    background: #5b951b;
+    margin: 30px 0 0 0;
+}
+.name ul{
+    margin: 0 20%;
+}
+.name ul li{
+    float: left;
+    color: #fff;
+    margin: 10px 30px;
+    font-size: 20px;
+}
+.clear{
+    content: "";
+    clear: both;
+}
+.content{
+    background: #f0f0f0;
+    margin: 0 auto;
+    text-align: center;
+}
+.picture{
+    margin: 10px 0 0 15%;
+    float: left;
+    width: 300px;
+    height: 340px;
+    background: url("../img/b.jpg");
+    background-size: cover;
+}
+.picture p{
+    margin-top: 104%;
+    color: #fff;
+    background-color:#000;
+    height: 29px;
+}
+.text{
+    float: left;
+    margin: 10px;
+    background: #fff;
+    width: 420px;
+    height: 300px;
+    text-align: left;
+    padding: 20px;
+}
+.text h3{
+    font-size: 21px;
+    text-align: center;
+    line-height: 40px;
+}
+.text p{
+    font-size: 15px;
+    line-height: 25px;
+}
+.author{
+    width: 220px;
+    height: 300px;
+    float: left;
+    background: #fff;
+    margin: 10px 10% 0 0;
+    padding: 20px;
+}
+.author h3{
+    text-align: left;
+    font-size: 20px;
+    line-height: 40px;
+}
+.author p{
+    text-align: left;
+    line-height: 30px;
+    font-size: 15px;
+    color: #3a768f;
+}
+.photo{
+    width: 770px;
+    height: 284px;
+    float: left;
+    margin: 10px 0 0 15%;
+    background: #fff;
+}
+.photo li{
+    width: 130px;
+    height: 114px;
+    float: left;
+    margin: 12px;
+}
+.photo li p{
+    font-size: 13px;
+}
+.photo li img{
+    width: 130px;
+    height: 90px;
+}
+.ranking{
+    width: 240px;
+    height: 264px;
+    background: #fff;
+    float: left;
+    padding: 10px;
+    margin: 10px 0 0 10px;
+}
+.ranking p{
+    text-align: left;
+    line-height: 35px;
+}
+.new{
+    width: 375px;
+    height: 328px;
+    float: left;
+    margin: 10px 0 0 15%;
+    background: #fff;
+}
+.new p{
+    text-align: left;
+    line-height: 30px;
+    font-size: 15px;
+    padding: 10px;
+}
+h4{
+    font-size: 20px;
+}
+.hot{
+    width: 385px;
+    height: 328px;
+    float: left;
+    margin: 10px 0 0 10px;
+    background: #fff;
+}
+.hot p{
+    text-align: left;
+    line-height: 30px;
+    font-size: 15px;
+    padding: 10px;
+}
+.reader{
+    width: 240px;
+    height: 308px;
+    background: #fff;
+    float: left;
+    padding: 10px;
+    margin: 10px 0 0 10px;
+}
+.reader p{
+    text-align: left;
+    line-height: 30px;
+    font-size: 15px;
+    padding: 10px;
+}/* CSS Document */
+

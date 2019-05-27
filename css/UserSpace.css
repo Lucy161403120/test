@@ -1,0 +1,108 @@
+body{
+    margin: 0 auto;
+    background: url("../img/top.jpg");
+    background-size: cover;
+}
+h1{
+    font-size: 35px;
+    text-align: left;
+    color: #fff;
+    margin: 0 20%;
+    padding: 50px 0;
+}
+header{
+    margin: 0;
+    height: 400px;
+}
+nav{
+    margin: 170px 17% 0 17%;
+    background: #2d2d2d;
+    border-radius: 5px;
+}
+nav h2{
+    line-height: 40px;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+.content{
+    margin: 0;
+    height: 900px;
+}
+.self{
+    background: #2d2d2d;
+    float: left;
+    margin: -35px 0 0 17%;
+    width: 300px;
+    height: 400px;
+}
+.self h4{
+    background: #5f5959;
+    line-height: 30px;
+    text-align: center;
+    font-size: 16px;
+    color: #baab6f;
+    margin: 0;
+}
+.self img{
+    width: 150px;
+    height: 150px;
+    padding: 20px 25%;
+    background: #fcf8e3;
+}
+.self p{
+    margin: 0;
+    color: #baab6f;
+    font-size: 15px;
+    text-align: center;
+    line-height: 40px;
+}
+.add{
+    float: left;
+    width: 690px;
+    height: 700px;
+    background: #2d2d2d;
+    margin: -35px 0 0 10px;
+    color: #baab6f;
+}
+.add h4{
+    background: #5f5959;
+    line-height: 50px;
+    text-align: center;
+    font-size: 16px;
+    margin: 0;
+}
+.add .top{
+    float: left;
+    margin: 30px 60px;
+}
+.add .top .form-row{
+    margin: 15px 0;
+}
+.form-row1{
+    margin: 45px 20px;
+    float: left;
+}
+.summary{
+    margin: 10px 60px;
+}
+.summary textarea{
+    width: 550px;
+    height: 120px;
+}
+.Content{
+    margin: 10px 60px;
+}
+.Content textarea{
+    width: 550px;
+    height: 120px;
+}
+.add button{
+    float: right;
+    margin: 0 90px 0 0;
+}
+.clear{
+    content: '';
+    clear: both;
+}/* CSS Document */
+
